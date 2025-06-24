@@ -1,0 +1,47 @@
+﻿
+/* id ---> # */
+
+#title {
+    color: darkred;
+    text-align: center;
+    background-color: greenyellow
+}
+
+#song1 {
+    background-color: lightpink;
+    border: 4px solid black;
+    text-align: center
+}
+
+#song2 {
+    background-color: lightskyblue;
+    border: 4px solid black;
+    text-align: center;
+    margin-top: 20px
+}
+
+/* class ---> . */
+
+.makeOrange {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.fs150 {
+    font-size: 150%;
+}
+
+.hightlight {
+    background-color: greenyellow;
+}
+
+
+/* Etiketlerin tamamına yazmak istersen */
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2, p {
+    /* hem h2 hem p lere css yazabilirsin.*/
+}

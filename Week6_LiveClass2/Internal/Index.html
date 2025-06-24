@@ -1,0 +1,87 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+
+    <!-- CSS'lerin head içerisindeki <style> </style> tagleri arasına yazılması durumu INTERNAL CSS '-->
+    <style>
+
+        /* id ---> # */
+
+        #title{
+            color:darkred;
+            text-align:center;
+            background-color: greenyellow
+
+        }
+
+        #song1{
+            background-color:lightpink;
+            border: 4px solid black;
+            text-align:center
+        }
+
+        #song2{
+            background-color: lightskyblue;
+            border: 4px solid black;
+            text-align:center;
+            margin-top:20px
+        }
+
+        /* class ---> . */
+
+        .makeOrange{
+            color:darkorange;
+            font-weight:bold;
+        }
+
+        .fs150{
+            font-size: 150%;
+        }
+
+        .hightlight{
+            background-color:greenyellow;
+        }
+
+
+        /* Etiketlerin tamamına yazmak istersen */
+
+        h2{
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        h2,p{
+            /* hem h2 hem p lere css yazabilirsin.*/
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1 id="title"> Şarkı Sözleri</h1>
+
+    <div id="song1">
+        
+        <h2>Vazgeçtim</h2>
+
+        <p>Vazgeç yüreğimden düşlerimden</p>
+        <p class="makeOrange">Yaralıyım bin yerimden</p>
+        <p>Ben değilim seviştiğin affedemem beni affet</p>
+        <p>Gidiyorum uzaklara, sensizliğe</p>
+    </div>
+    
+
+
+    <div id="song2">
+
+        <h2 class="hightlight">Saydım</h2>
+
+        <p class="fs150 hightlight">Geceler boyu sesine uyandım.</p>
+        <p>Sen sandım ellere uzandım.</p>
+        <p>Sana değil kendime kızardım ben.</p>
+        <p class="makeOrange hightlight fs150">Sen giderken.</p>
+
+    </div>
+
+</body>
+</html>
