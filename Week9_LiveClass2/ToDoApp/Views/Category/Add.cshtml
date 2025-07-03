@@ -1,0 +1,24 @@
+﻿
+@model CategoryAddViewModel
+
+<h3 class="text-center">Yeni Kategori Ekleme Formu</h3>
+
+@* Method Post ile HttpGet - HttpPost farklı!*@
+<form method="post" asp-controller="Category" asp-action="Add">
+
+    <div>
+        <label>Kategori Adı</label>
+        <input class="form-control" asp-for="Name" />
+    </div>
+
+
+    <div>
+        <label>Açıklama</label>
+        <textarea class="form-control" rows="3" asp-for="Description"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-warning fw-bold mt-4 float-end">Kategori Kaydet</button>
+
+
+
+</form>
