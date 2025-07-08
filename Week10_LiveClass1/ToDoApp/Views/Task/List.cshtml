@@ -1,0 +1,25 @@
+﻿@model List<TaskListViewModel>
+
+<h3>Görev Listesi</h3>
+
+<a href="/Task/add" class="btn btn-info fw-bold float-end">Yeni Görev</a>
+
+<table class="table mt-4">
+    <tr>
+        <th>Görev</th>
+        <th>Aksiyonlar</th>
+    </tr>
+
+    @foreach(var task in Model)
+    {
+        <tr>
+            <td>@task.Name</td>
+            <td>
+                <a asp-controller="Task" asp-action="Edit" asp-route-id="@task.Id">Düzenle</a>
+                <a asp-controller="Task" asp-action="Delete" asp-route-id="@task.Id">Sil</a>
+
+            </td>
+        </tr>
+    }
+
+</table>

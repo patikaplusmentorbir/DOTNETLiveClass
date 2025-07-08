@@ -1,0 +1,29 @@
+﻿@model TaskAddViewModel
+
+<h3 class="text-center">Yeni Görev Ekleme Formu</h3>
+
+@* Method Post ile HttpGet - HttpPost farklı!*@
+<form method="post" asp-controller="Task" asp-action="Add">
+
+    <div>
+        <label>Görev Adı</label>
+        <input class="form-control" asp-for="Name" />
+    </div>
+
+
+    <div>
+        <label>Açıklama</label>
+        <textarea class="form-control" rows="3" asp-for="Description" ></textarea>
+    </div>
+
+    <div>
+        <label>Kategori</label>
+        <select asp-items="@(new SelectList(ViewBag.Categories, "Id", "CategoryName"))" class="form-control" asp-for="CategoryId"></select>
+    </div>
+    
+
+    <button type="submit" class="btn btn-info fw-bold mt-4 float-end">Görev Kaydet</button>
+
+
+
+</form>
