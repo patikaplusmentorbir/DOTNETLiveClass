@@ -1,0 +1,6 @@
+@CustomIdentityWithJwt_HostAddress = http://localhost:5007
+
+GET {{CustomIdentityWithJwt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
