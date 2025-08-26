@@ -1,0 +1,7 @@
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.csproj.AssemblyReference.cache
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.AssemblyInfoInputs.cache
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.AssemblyInfo.cs
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.csproj.CoreCompileInputs.cache
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\serta\source\repos\CustomIdentityWithJwt\CustomIdentityWithJwt\obj\Debug\net8.0\CustomIdentityWithJwt.MvcApplicationPartsAssemblyInfo.cache
