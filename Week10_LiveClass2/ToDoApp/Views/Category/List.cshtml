@@ -1,0 +1,22 @@
+﻿@model List<CategoryListViewModel>
+
+    
+
+<h3>Kategori Listesi</h3>
+
+<a href="/Category/add" class="btn btn-warning fw-bold float-end">Yeni Kategori</a>
+
+<table class="table mt-4">
+    <tr>
+        <th>Kategori Adı</th>
+        <th>Açıklaması</th>
+    </tr>
+    @foreach(var x in Model)
+    {
+        <tr>
+            <td>@x.Name</td>
+            <td>@x.Description</td>
+        </tr>
+    }
+
+</table>

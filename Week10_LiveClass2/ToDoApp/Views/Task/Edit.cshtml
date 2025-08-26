@@ -1,0 +1,31 @@
+﻿@model TaskEditViewModel
+
+<h3 class="text-center">Görev Düzenleme Formu</h3>
+
+@* Method Post ile HttpGet - HttpPost farklı!*@
+<form method="post" asp-controller="Task" asp-action="Edit">
+
+    <input asp-for="Id" type="hidden"/>
+
+    <div>
+        <label>Görev Adı</label>
+        <input class="form-control" asp-for="Name" />
+    </div>
+
+
+    <div>
+        <label>Açıklama</label>
+        <textarea class="form-control" rows="3" asp-for="Description"></textarea>
+    </div>
+
+    <div>
+        <label>Kategori</label>
+        <select asp-items="@(new SelectList(ViewBag.Categories, "Id", "CategoryName"))" class="form-control" asp-for="CategoryId"></select>
+    </div>
+
+
+    <button type="submit" class="btn btn-info fw-bold mt-4 float-end">Görevi Düzenle</button>
+
+
+
+</form>

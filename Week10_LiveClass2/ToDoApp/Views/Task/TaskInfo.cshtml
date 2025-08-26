@@ -1,0 +1,30 @@
+﻿@model TaskDetailViewModel
+
+
+<div class="card">
+
+    <div class="card-header fw-bold">
+            @Model.Name
+    </div>
+
+
+
+    <div class="card-body">
+        @Model.Description
+    </div>
+
+    <div class="ms-2 mb-2 fw-bold">
+
+    @if (Model.Isdone)
+    {    
+        <a asp-controller="Task" asp-action="Toggle" asp-route-id="@Model.Id" class="btn btn-success"> Görev tamamlanmış. </a>
+    }
+    else
+    {
+        <a asp-controller="Task" asp-action="Toggle" asp-route-id="@Model.Id" class="btn btn-danger"> Görev tamamlanmamış.. </a>
+    }
+    </div>
+
+
+
+</div>
